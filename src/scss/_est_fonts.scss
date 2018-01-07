@@ -1,0 +1,260 @@
+///////////////////////////////////////////////////////////////////////////////////////////
+//mobile
+
+
+	//estructura de fuentes tipográficas del sistema
+
+
+	//tipos de fuentes:
+	$base_f_standar: arial,helvetica,sans-serif;
+
+
+	//tamaños de fuentes:
+	$master: 16px;
+
+	$text_h1: 1.2rem;
+
+	$text_h2: 1.4rem;
+
+	$text_h3: 1.2rem;
+
+	$text_p: 1.1rem;
+
+	$text0: 1.2rem;
+
+	$text1: 1.3rem;
+
+	$text2: 1.4rem;
+
+	$text_ext0: 1.5rem;
+
+	$text_ext1: 2.0rem;
+
+	$boton_estandar: 1.2rem;
+
+	$boton_extended: 1.6rem;
+
+	//iconos
+	$icon_general: 1.6rem;
+
+	$icon_general2: 2.0rem;
+
+	$icon_close: 2.3rem;
+
+	$icon_form: 0.6rem;
+
+	$icon_close: 2rem;
+
+
+	//imputs formrs
+	$form_font_size: 1.4rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//html, master
+
+		//tamaño de fuente global
+		$master: 16px;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//close buttom lightboxes
+
+		$btn_close_cintillos_lightbox_L1: 2.5rem;		
+		$btn_close_windows_free: 1.6rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//cintillo superior
+
+		//encabezados
+		$text_cintillo_h1: 2.0rem;
+		$text_cintillo_h2: 1.2rem;
+		$text_cintillo_h3: 1.1rem;
+		$text_cintillo_h4: 1.0rem;
+		$text_cintillo_h5: 0.9rem;
+		$text_cintillo_h6: 0.8rem;
+
+		//text, párrafos
+		$text_cintillo_p_L1: 2.0rem;
+		$text_cintillo_p_L2: 1.8rem;
+		$text_cintillo_p_L3: 1.6rem;
+		$text_cintillo_p_L4: 1.4rem;
+		$text_cintillo_p_L5: 1.2rem;
+		$text_cintillo_p_L6: 1.1rem;
+
+		//botones
+		$btn_estandar_cintillo: 1.2rem;
+		$btn_extended_cintillo: 1.6rem;
+
+		//icons
+		$icon_standar_cintillo: 1.5rem;
+		$icon_standar2_cintillo: 2.0rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//search index
+		
+		//botones
+		$btn_L1_search: 1.2rem;
+		$btn_L1_search: 1.6rem;
+
+		//icons
+		$icon_standar_search_1: 1.5rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//footer
+
+		//botones
+		$btn_L1_footer: 1.2rem;
+		$btn_L2_footer: 1.6rem;
+
+		//icons
+		$icon_standar_footer_1: 2.0rem;
+		$icon_standar_footer_2: 1.6rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//lightbox menús
+
+		//encabezados
+		$text_lightbox_menu_h1: 2.0rem;
+		$text_lightbox_menu_h2: 1.2rem;
+		$text_lightbox_menu_h2plus: 1.5rem;
+
+		$text_lightbox_menu_h3: 1.1rem;
+		$text_lightbox_menu_h4: 1.0rem;
+		$text_lightbox_menu_h5: 0.9rem;
+		$text_lightbox_menu_h6: 0.8rem;		
+
+		//text, párrafos
+		$text_lightbox_menu_p_L1: 2.0rem;
+		$text_lightbox_menu_p_L2: 1.8rem;
+		$text_lightbox_menu_p_L3: 1.6rem;
+		$text_lightbox_menu_p_L4: 1.4rem;
+		$text_lightbox_menu_p_L5: 1.2rem;
+		$text_lightbox_menu_p_L6: 1.1rem;
+
+		//botones
+		$btn_estandar_lightbox_menu: 1.2rem;
+		$btn_extended_lightbox_menu: 1.6rem;
+
+		//icons
+		$icon_standar_lightbox_menu: 2.5rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//search directorios
+
+		//botones
+		$btn_L1_directorios: 1.2rem;
+		$btn_L1_directorios: 1.6rem;
+
+		//icons
+		$icon_standar_directorios_1: 1.5rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//search especialidades
+
+		//encabezados
+		$text_especialidades_h1: 2.0rem;
+		$text_especialidades_h2: 1.2rem;
+		$text_especialidades_h3: 1.1rem;
+		$text_especialidades_h4: 1.0rem;
+		$text_especialidades_h5: 0.9rem;
+		$text_especialidades_h6: 0.8rem;		
+
+		//text, párrafos
+		$text_especialidades_p_L1: 2.0rem;
+		$text_especialidades_p_L2: 1.8rem;
+		$text_especialidades_p_L3: 1.6rem;
+		$text_especialidades_p_L4: 1.4rem;
+		$text_especialidades_p_L5: 1.2rem;
+		$text_especialidades_p_L6: 1.1rem;
+
+		//botones
+		$btn_estandar_especialidades: 1.2rem;
+		$btn_extended_especialidades: 1.6rem;
+
+		//icons
+		$icon_standar_especialidades: 1.5rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//calendario del médico
+
+		//encabezados
+		$text_cal_medico_h1: 2.0rem;
+		$text_cal_medico_h2: 1.2rem;
+		$text_cal_medico_h3: 1.1rem;
+		$text_cal_medico_h4: 1.0rem;
+		$text_cal_medico_h5: 0.9rem;
+		$text_cal_medico_h6: 0.8rem;		
+
+		//text, párrafos
+		$text_cal_medico_p_L1: 2.0rem;
+		$text_cal_medico_p_L2: 1.8rem;
+		$text_cal_medico_p_L3: 1.6rem;
+		$text_cal_medico_p_L4: 1.4rem;
+		$text_cal_medico_p_L5: 1.2rem;
+		$text_cal_medico_p_L6: 1.1rem;
+
+		//botones
+		$btn_estandar_cal_medico: 1.4rem;
+		$btn_extended_cal_medico: 1.6rem;
+
+		//icons
+		$icon_standar_cal_medico: 1.5rem;
+		$icon_form_cal_medico: 0.6rem;
+
+		//forms
+		$form_cal_medico: 1.4rem;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//load mini módulos
+
+		//encabezados
+		$text_mini_modulos_h1: 2.0rem;
+		$text_mini_modulos_h2: 1.2rem;
+		$text_mini_modulos_h3: 1.1rem;
+		$text_mini_modulos_h4: 1.0rem;
+		$text_mini_modulos_h5: 0.9rem;
+		$text_mini_modulos_h6: 0.8rem;		
+
+		//text, párrafos
+		$text_mini_modulos_p_L1: 2.0rem;
+		$text_mini_modulos_p_L2: 1.8rem;
+		$text_mini_modulos_p_L3: 1.6rem;
+		$text_mini_modulos_p_L4: 1.4rem;
+		$text_mini_modulos_p_L5: 1.2rem;
+		$text_mini_modulos_p_L6: 1.1rem;		
+
+		//botones
+		$btn_estandar_mini_modulos: 1.2rem;
+		$btn_extended_mini_modulos: 1.6rem;
+
+		//icons
+		$icon_standar_mini_modulos: 1.5rem;

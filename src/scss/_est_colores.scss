@@ -1,0 +1,414 @@
+///////////////////////////////////////////////////////////////////////////////////////////
+//mobile
+
+	//estructura de colores del sistema
+
+	$base_black_grad: linear-gradient(to right, #010305, #2E302B, #010305);
+
+	$lightbox_green_grad1: linear-gradient(to right, rgba(19,92,19,0.9), rgba(49,130,80,0.9), rgba(19,92,19,0.9));
+
+	$font_Black: black;	
+
+	$black_text: #222;
+
+	$base_C_blue: #0D137A;
+
+	$base_C_white: #fff;
+
+	$font_C_h1_white: #fff;
+
+	$font_C_h2_white: #fff;
+
+	$font_C_h3_white: #fff;
+
+	$font_C_p_white: #fff;
+
+	$color_bg_grey1: #555;
+
+	$color_bg_greyMid: #0F2C3B;
+
+	$color_bg_black: #141412;
+
+	$color_bg_white: #fff;
+
+	$color_bg_blueSky: #0CAEF2;
+
+	$color_bg_green: #006101;
+
+	$color_bg_green_plus1: #083B07;
+
+	$color_bg_red: #F22207;
+
+
+	//rellenos de texto	
+	$fill_white_text_h1: #fff;
+	$fill_white_text_h2: #fff;
+	$fill_white_text_h3: #fff;
+	$fill_white_text_h4: #fff;
+	$fill_white_text_h5: #fff;
+	$fill_white_text_h5: #fff;
+
+	//comodines y generales
+	$comodin_general_white: #fff;
+
+
+	//rellenos de texto hover
+	$fill_white_text_hover: #fff;
+
+
+	//screen interface
+	$bg_white: #fff;
+	$bg_green: #006101;
+		$base_C_green: #006101;
+
+
+	//botones
+	$color_btn_white: #fff;
+
+	$color_btn_bg_green: #006101;
+
+	$color_btn_bg_hover_green: #149812;
+
+
+	//hovers
+	$lightbox_green1: #58FF33; 
+
+
+	//inputs form:
+	$input_fill_white: #fff;
+
+	$input_fill_green: green;
+
+	$input_bg_green: green;
+
+	$input_bg_white: #fff;
+
+	$base_f_labels_white: #fff;
+
+	$form_hover: #83FF2E;
+
+
+	//icons
+	$icon_white: #fff;
+
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//general
+
+		//a:visited
+		$master_fill_color_white: #fff;
+
+		//html,body
+		$master_bg_color_white: #fff;
+	
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//close
+
+		//lightboxes
+		$btn_close_color_cintillos_lightbox_L1: #fff;
+		$btn_close_color_cintillos_lightbox_L2: #fff;
+
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//cintillo superior
+
+		//rellenos de texto	
+		$fill_white_text_cintllo_h1: #fff;
+		$fill_white_text_cintllo_h2: #fff;
+		$fill_white_text_cintllo_h3: #fff;
+		$fill_white_text_cintllo_h4: #fff;
+		$fill_white_text_cintllo_h5: #fff;
+		$fill_white_text_cintllo_h6: #fff;
+
+
+		//comodines y generales
+		$comodin_general_white_cintillo: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_cintillo_hover: #fff;
+
+		//icons
+		$icon_fill_white_cintillo: #fff;
+
+			//icon hover
+			$icon_fill_hover_cintillo: green;
+
+		//screen interface
+		$bg_white_contillo: #fff;
+		$bg_green_cintillo: #006101;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//search index
+
+		//input
+		$input_search_bg: #fff;
+		$input_search_placeholde_text: #555;
+
+			//input hover
+			$input_search_bg_hover: #fff;
+			$input_search_placeholde_text_hover: #555;
+
+
+		//rellenos de texto	
+		$fill_white_text_search_h1: #fff;
+		$fill_white_text_search_h2: #fff;
+		$fill_white_text_search_h3: #fff;
+		$fill_white_text_search_h4: #fff;
+		$fill_white_text_search_h5: #fff;
+		$fill_white_text_search_h6: #fff;
+
+		//comodines y generales
+		$comodin_general_white_search: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_search_hover: #fff;
+
+		//icons
+		$icon_fill_white_search: #fff;
+
+			//icon hover
+			$icon_fill_hover_search: green;
+
+		//screen interface
+		$bg_white_search: #fff;
+		$bg_green_search: #006101;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//footer
+
+		//rellenos de texto	
+		$fill_white_text_footer_h1: #fff;
+		$fill_white_text_footer_h2: #fff;	
+
+		//comodines y generales
+		$comodin_general_white_footer: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_footer_hover: #fff;
+			$fill_green_text_footer_hover: #58FF33;
+
+		//icons
+		$icon_fill_white_footer: #fff;
+
+			//icon hover
+			$icon_fill_hover_footer: green;
+
+		//screen interface
+		$bg_white_footer: #fff;
+		$bg_green_footer: #006101;		
+		$bg_blue_footer: #0D137A;
+		$bg_green_grad1_lightbox: linear-gradient(to right, rgba(19,92,19,0.9), rgba(49,130,80,0.9), rgba(19,92,19,0.9));
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//lightbox menús
+
+		//rellenos de texto	
+		$fill_white_text_lightbox_menu_h1: #fff;
+		$fill_white_text_lightbox_menu_h2: #fff;
+
+		$fill_white_text_lightbox_menu_h2plus: #fff;
+		
+		$fill_white_text_lightbox_menu_h3: #fff;
+		$fill_white_text_lightbox_menu_h4: #fff;
+		$fill_white_text_lightbox_menu_h5: #fff;
+		$fill_white_text_lightbox_menu_h6: #fff;
+
+		//comodines y generales
+		$comodin_general_white_lightbox_menu: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_lightbox_menu_hover: #fff;
+			$fill_green_text_lightbox_menu_hover: #58FF33;
+
+		//icons
+		$icon_fill_white_lightbox_menu: #fff;
+
+			//icon hover
+			$icon_fill_hover_lightbox_menu: green;
+
+		//screen interface
+		$bg_white_lightbox_menu: #fff;
+		$bg_green_lightbox_menu: #006101;
+		$bg_green2_lightbox_menu: #5ED10F;
+		$bg_green_grad_lightbox_menu: linear-gradient(to right, rgba(19,92,19,0.9), rgba(49,130,80,0.9), rgba(19,92,19,0.9));
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//search directorios
+
+		//input
+		$input_directorios_bg: #fff;
+		$input_directorios_placeholde_text: #555;
+
+			//input hover
+			$input_directorios_bg_hover: #fff;
+			$input_directorios_placeholde_text_hover: #555;
+
+
+		//rellenos de texto	
+		$fill_white_text_directorios_h1: #fff;
+		$fill_white_text_directorios_h2: #fff;
+		$fill_white_text_directorios_h3: #fff;
+		$fill_white_text_directorios_h4: #fff;
+		$fill_white_text_directorios_h5: #fff;
+		$fill_white_text_directorios_h6: #fff;
+
+		//comodines y generales
+		$comodin_general_white_directorios: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_directorios_hover: #fff;
+
+		//icons
+		$icon_fill_white_directorios: #fff;
+
+			//icon hover
+			$icon_fill_hover_directorios: green;
+
+		//screen interface
+		$bg_white_directorios: #fff;
+		$bg_green_directorios: #006101;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//search especialidades
+
+		//rellenos de texto	
+		$fill_white_text_especialidades_h1: #fff;
+		$fill_white_text_especialidades_h2: #fff;
+		$fill_white_text_especialidades_h3: #fff;
+		$fill_white_text_especialidades_h4: #fff;
+		$fill_white_text_especialidades_h5: #fff;
+		$fill_white_text_especialidades_h6: #fff;
+
+		//comodines y generales
+		$comodin_general_white_especialidades: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_especialidades_hover: #fff;
+
+		//icons
+		$icon_fill_white_especialidades: #fff;
+
+			//icon hover
+			$icon_fill_hover_especialidades: green;
+
+		//screen interface
+		$bg_white_especialidades: #fff;
+		$bg_green_especialidades: #006101;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//calendario del médico
+
+		//rellenos de texto	
+		$fill_white_text_cal_medico_h1: #fff;
+		$fill_white_text_cal_medico_h2: #fff;
+		$fill_white_text_cal_medico_h3: #fff;
+		$fill_white_text_cal_medico_h4: #fff;
+		$fill_white_text_cal_medico_h5: #fff;
+		$fill_white_text_cal_medico_h6: #fff;
+
+		$fill_black_text_cal_medico_h2: #999;
+
+		//comodines y generales
+		$comodin_general_white_cal_medico: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_cal_medico_hover: #fff;
+			$bg_white_text_cal_medico_hover: green;
+
+		//icons
+		$icon_fill_white_cal_medico: #fff;
+
+			//icon hover
+			$icon_fill_hover_cal_medico: green;
+
+		//botones
+		$btn_fill_white_cal_medico: #fff;
+
+		//screen interface
+		$bg_white_cal_medico: #fff;
+		$bg_green_cal_medico: #006101;
+		$bg_black_cal_medico: #141412;
+		$bg_grey_cal_medico: #555;
+		$bg_black_grad_cal_medico: rgba(0,0,0,0.4);
+
+		//borders
+		$border_white_cal_medico: #fff;
+
+		//forms
+		$form_fill_labels_white: #fff;
+		$form_fill_white_cal_medico: #fff;
+		$form_input_fill_cal_medico: #006101;
+		$form_input_bg_green_cal_medico: green;
+		$form_input_bg_white_cal_medico: #fff;
+
+			//form hover
+			$form_fill_green_hover_cal_medico: #83FF2E;
+			$form_checked_fill_green_hover_cal_medico: #83FF2E;
+
+
+		//select
+		$form_select_fill_white_cal_medico: #fff;
+		$form_select_bg_white_cal_medico: #666;
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	//load mini módulos
+
+		//rellenos de texto	
+		$fill_white_text_mini_modulos_h1: #fff;
+		$fill_white_text_mini_modulos_h2: #fff;
+		$fill_white_text_mini_modulos_h3: #fff;
+		$fill_white_text_mini_modulos_h4: #fff;
+		$fill_white_text_mini_modulos_h5: #fff;
+		$fill_white_text_mini_modulos_h6: #fff;
+
+		//comodines y generales
+		$comodin_general_white_mini_modulos: #fff;
+
+			//rellenos de texto hover
+			$fill_white_text_mini_modulos_hover: #fff;
+
+		//icons
+		$icon_fill_white_mini_modulos: #fff;
+
+			//icon hover
+			$icon_fill_hover_mini_modulos: green;
+
+		//screen interface
+		$bg_white_mini_modulos: #fff;
+		$bg_green_mini_modulos: #006101;
+		$bg_grey_mini_modulos: #555;
+		$bg_black_grad_mini_modulos: linear-gradient(to right, #010305, #2E302B, #010305);
+		$bg_blueSky_mini_modulos: #0CAEF2;
+		$bg_orange_mini_modulos: #F22207;
+		

@@ -1,0 +1,76 @@
+
+/*
+
+	Inicializar Sass:
+	_________________
+
+
+		Navegar hasta la ruta del proyecto de citaMedica:
+
+			_"cd c:\xampp\htdocs\nuestraCita\src\scss", + "enter"
+
+
+		Inicializar Sass, para éste proyecto
+
+			_"sass --watch main.scss:../../dist/css/main.css --style compressed", + "enter" 
+
+
+	-------------------------------------------------------------------------------------------
+
+
+*/
+
+//estructuras
+
+//@import "_estructuras.scss";
+//@import "_variales.scss";
+@import "_est_colores.scss";
+@import "_est_fonts.scss";
+
+//@import "_funciones.scss";
+
+//sections
+@import "_body.scss";
+@import "_header_mobile.scss";
+@import "_id_mobile.scss";
+@import "_load_main_mobile.scss";
+@import "_footer_mobile.scss";
+@import "_calendario_mobile.scss";
+@import "_load_mobile.scss";
+
+//loads mibile
+@import "_close_mobile.scss";
+@import "_help_mobile.scss";
+@import "_contacto_mobile.scss";
+@import "_load_menu_top_plus_mobile.scss";
+@import "_load_index_dir_mobile.scss";
+@import "_load_search_dir_mobile.scss";
+	@import "_load_cal_c_prog_mobile.scss";
+
+@import "_load_user_sesion_mobile.scss";
+@import "_load_user_recover_mobile.scss";
+@import "_load_user_perfil_mobile.scss";
+@import "_load_cita_f1_mobile.scss";
+@import "_load_cal_med_mobile.scss";
+@import "_load_entidad_m_mobile.scss";
+@import "_load_client_set_mobile.scss";
+@import "_load_client_panel_mobile.scss";
+@import "_load_perfil_user_mobile.scss";
+	@import "_load_user_perfil_head_mobile.scss";
+@import "_load_perfil_use_dp_mobile.scss";
+@import "_footer_user_mobile.scss";
+@import "_load_user_edit_dp_mobile.scss";
+@import "_close_b_mobile.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+//components

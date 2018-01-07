@@ -1,0 +1,32 @@
+
+//mobile first footer
+
+footer{
+	width: 100%;
+	height: auto;
+}
+
+	#footer{
+		padding: 2% 0%;
+		position: absolute;
+		bottom: 0px;
+		background-color: $bg_blue_footer;
+	}
+
+		.acc_1{
+			width: 50%;
+			height: auto;
+			font-size: $btn_L1_footer;
+			font-weight: bold;
+			color: $fill_white_text_footer_h2;
+			cursor: pointer;
+
+		}
+
+			.acc_1 span{
+				font-size: $icon_standar_footer_2;
+				margin-right: 5%;
+				color: $icon_fill_white_footer;
+			}
+
+			

@@ -1,0 +1,47 @@
+
+//mobile first footer
+#contact_c{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0%;
+	z-index: 1;
+	background: $bg_green_grad1_lightbox;
+}
+
+	#contact_c div{
+		width: 90%;
+		height: auto;
+		color: $fill_white_text_lightbox_menu_h2;
+		display: table;			
+		padding: 20px 0px;
+		border-bottom: 1px solid white;
+		margin: 0 auto;	
+	}
+
+		#contact_c div:last-child{
+			border-bottom: 0px solid transparent;
+		}
+
+		#contact_c div:hover{
+			color: $fill_green_text_lightbox_menu_hover;
+		}
+
+			#contact_c div:hover:nth-child(5){
+				color: $fill_white_text_lightbox_menu_h2;
+			}
+
+		#contact_c div span{
+			width: 20%;
+			font-size: $icon_standar_lightbox_menu;
+			display: table-cell;
+			vertical-align: middle;			
+		}
+
+		#contact_c div h3{
+			width: 80%;
+			font-size: $btn_estandar_lightbox_menu;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;
+		} 

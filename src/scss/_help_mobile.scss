@@ -1,0 +1,43 @@
+
+//mobile first footer
+#f_mobile{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0%;
+	z-index: 1;	
+	background: $bg_green_grad_lightbox_menu;
+}
+
+	#f_mobile div{
+		width: 90%;
+		height: auto;
+		color: $fill_white_text_lightbox_menu_h2;
+		display: table;			
+		padding: 20px 0px;
+		border-bottom: 1px solid white;
+		margin: 0 auto;
+	}
+
+		#f_mobile div:last-child{
+			border-bottom: 0px solid transparent;
+		}
+
+	#f_mobile div:hover{
+		color: $fill_white_text_lightbox_menu_hover;
+	}
+
+		#f_mobile div span{
+			width: 20%;
+			font-size: $icon_standar_lightbox_menu;
+			display: table-cell;
+			vertical-align: middle;			
+		}
+
+		#f_mobile div h3{
+			width: 80%;
+			font-size: $text_lightbox_menu_h2;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;		
+		} 

@@ -1,0 +1,23 @@
+//campo de búsqueda específico por directorio "mobile"
+#sc_dir{
+	width: 100%;
+	height: auto;
+}
+
+	#sc_dir input{
+		width: 90%;
+		height: 60px;
+		margin-top: 3%;
+		background-color: $input_bg_white;
+	}	
+
+	#sc_dir #s_dir_back{
+		width: 90%;
+		height: 50px;
+		font-family: $base_f_standar;
+		font-size: $boton_extended;
+		color: $base_C_white;
+		background-color: $base_C_green;
+		margin: 0 auto;
+		padding-top: 3%;
+	}

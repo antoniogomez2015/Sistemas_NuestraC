@@ -1,0 +1,45 @@
+
+//mobile first search
+
+#load_main{
+	width: 100%;
+	height: auto;	
+}
+
+	#load_main #cb{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;	
+		padding: 0%;		
+	}
+
+		#load_main #cb input{
+			width: 85%;
+			height: 50px;
+			margin-top: 6%;
+			padding: 5px 0px;			 
+		}
+
+
+	 #load_main #op{
+	 	width: 85%;
+	 	height: auto;
+	 	margin: auto;	 	
+	 }
+
+	 	#load_main #op div{
+	 		width: 50%;
+	 		height: auto;
+	 		background-color: $base_C_green;
+	 		border: 1px solid white;
+	 		margin-top: 2%;
+	 		padding: 10px 0px;
+	 		cursor: pointer;
+	 	}
+
+	 		#load_main #op div a{
+	 			font-size: 1rem;
+	 			font-weight: 600;
+	 			color: white;
+	 		}
+	 		

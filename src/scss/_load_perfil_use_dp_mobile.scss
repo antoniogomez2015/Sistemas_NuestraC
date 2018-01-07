@@ -1,0 +1,101 @@
+
+//editar los datos personales del usuario, mobile
+#user_p{
+	width: 100%;
+	height: auto;
+}
+
+#datos_p{
+	width: 100%;
+	height: auto;
+	flex:1;	
+}
+
+	.gUp{
+		width: 100%;
+		height: auto;
+		border-bottom: 1px solid white;
+		font-family: $base_f_standar;
+		font-size: $text_lightbox_menu_h2plus;
+		color: $fill_white_text_lightbox_menu_h2plus;			
+		margin: 0 auto;
+		padding: 6%;
+		background-color: red;
+	}
+
+	#ev{
+		width: 100%;
+		height: auto;
+		border-bottom: 1px solid white;
+		font-family: $base_f_standar;
+		font-size: $text_lightbox_menu_h2plus;
+		color: $fill_white_text_lightbox_menu_h2plus;			
+		margin: 0 auto;
+		padding: 6%;
+		background-color: red;
+	}
+
+	#datos_p #back{
+		width: 100%;
+		height: 40px;
+		color: $fill_white_text_lightbox_menu_h2;
+		background-color: $bg_green2_lightbox_menu;
+		margin: 0;
+		padding-top: 1%;
+	}
+
+	#dp{
+		width: 100%;
+		height: auto;
+		background: $bg_green_grad_lightbox_menu;		
+	}
+
+		/*#dp #black{
+			width: 100%;
+			height: 40px;
+			color: $text_lightbox_menu_h2;
+			background-color: $bg_green2_footer;
+			margin: 0;
+		}*/
+
+		#dp h2{
+			width: 90%;
+			height: auto;
+			border-bottom: 1px solid white;
+			font-family: $base_f_standar;
+			font-size: $text_lightbox_menu_h2plus;
+			color: $fill_white_text_lightbox_menu_h2plus;			
+			margin: 0 auto;
+			padding: 6%;
+		}
+
+		#dp h2:last-child{
+			border-bottom: 1px solid transparent;
+		}
+
+		#dp h3{
+			width: 90%;
+			height: auto;
+			border-bottom: 1px solid white;
+			font-family: $base_f_standar;
+			font-size: $text_lightbox_menu_h2plus;
+			color: $fill_white_text_lightbox_menu_h2plus;			
+			margin: 0 auto;
+			padding: 6%;
+		}
+
+			#dp h3:hover{
+				color: $fill_green_text_lightbox_menu_hover;
+			}
+
+		#dp h3:last-child{
+			border-bottom: 1px solid transparent;
+		}
+
+#userF2{
+	width: 100%;
+	height: auto;
+	background-color: green;
+}
+
+

@@ -1,0 +1,254 @@
+
+//mobile first load_cita_f1_mobile.scss
+
+#close_b{
+	font-size: $btn_close_cintillos_lightbox_L1;
+	color: black;
+	margin-top: 2%;
+}
+
+#cita-m{
+	width: 100%;	
+	height: auto;
+	min-height: 100%;
+	margin-top: 4%;	
+	background-color: $bg_black_cal_medico;
+}
+
+
+	#cita-m #medico{
+		width: 100%;
+		height: auto;
+		background-color: $bg_black_cal_medico;
+		border-top: 10px solid $bg_green_cal_medico;
+		border-radius: 5px 5px 0px 0px;
+	}		
+
+		#cita-m #medico h2{
+			font-size: $text_cal_medico_h2;
+			color: $fill_white_text_cal_medico_h2;
+		}
+
+		#cita-m #medico h3{
+			font-size: $text_cal_medico_h3;
+			color: $fill_white_text_cal_medico_h3;
+		}
+
+		#cita-m #medico p{
+			font-size: $text_cal_medico_p_L6;
+			color: $fill_white_text_cal_medico_h6;
+		}
+
+	#cita-m #cost{
+		width: 96%;
+		height: auto;
+		background-color: $bg_green_cal_medico;
+		padding: 2% 0;	
+	}
+
+		#cita-m #cost p{
+			font-family: $base_f_standar;
+			font-size: $text_cal_medico_p_L4;
+			color: $fill_white_text_cal_medico_h4;
+			margin: 0;
+		}
+
+
+	#cita-m form{
+		width: 100%;
+		height: auto;
+		text-align: center;		
+	}
+
+		#cita-m form .row{
+			width: 100%;
+			height: 50px;
+			margin-bottom: 2px;
+			border-bottom: 1px solid $border_white_cal_medico;
+			display: table;
+		}			
+
+			#cita-m form .row .h{
+				width: 20%;
+				height: 25px;
+				color: $comodin_general_white_cal_medico;
+				background-color: $bg_black_grad_cal_medico;
+				padding: 5px 0px;				
+				display: inline-block;
+				display: table-cell;
+				vertical-align: middle;
+				border-radius: 6px;
+			}
+
+			#cita-m form .row .d{
+				width: 75%;
+				height: 40px;				
+				padding: 5px 0px;
+				display: inline-block;
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			#cita-m form .row .h span{
+				font-size: $icon_form_cal_medico;
+			}
+
+				#cita-m form .row .d input{
+					width: 35px;
+					height: 35px;
+					display: inline-block;
+					margin: 0px 1.5px;					
+				}
+
+				#cita-m form .row .d input[type="radio"]{
+					display: none;
+				}
+
+				#cita-m form .row .d label i{
+					color: $form_fill_labels_white;
+					font-size: $text_cal_medico_p_L1;
+					margin: 1px 3px;
+				}
+
+					#cita-m form .row .d label i:hover{
+						color: $form_fill_green_hover_cal_medico;
+					}
+
+
+		#cita-m form input[type="submit"]{
+			width: 100%;
+			height: 50px;
+			font-size: $form_cal_medico;
+			font-weight: 600;
+			color: $form_fill_white_cal_medico;
+			background-color: $bg_green_cal_medico;
+			border: 0px;			
+		}
+
+			#cita-m form input[type="submit"]:hover{
+				color: $form_fill_green_hover_cal_medico;
+			}
+
+			#cita-m form input[type="checkbox"]:checked{
+				color: $form_checked_fill_green_hover_cal_medico;
+				background-color: $form_input_bg_green_cal_medico;
+			}
+
+
+
+		#cita-m form #mes{
+			width: 96%;
+			font-size: $text_cal_medico_p_L5;
+			color: $fill_white_text_cal_medico_h5;
+			background-color: $bg_white_cal_medico;
+		}
+
+			#cita-m form #mes h2{
+				font-size: $text_cal_medico_h2;
+				color: $fill_black_text_cal_medico_h2;
+				margin-left: 10px;
+			}
+
+			#cita-m form #mes select{
+				width: 35%;
+				height: 30px;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				-o-appearance: none;
+				appearance: none;
+				display: block;
+				color: $form_select_fill_white_cal_medico;
+				font-weight: bold;
+				padding: 2px 8px;
+				margin: 12px 5px 0px 0px;
+				border: 0px;		
+				background: url('../img/general/general/upDownArrowLow.png') no-repeat right;
+				background-position: 140px 6px;
+				background-color: $form_select_bg_white_cal_medico;
+			}
+
+			#cita-m form #mes i{
+				width: 20%;
+				height: auto;
+			}
+
+				#cita-m form #mes i span{
+					font-size: $icon_form_cal_medico;
+				}
+
+			#cita-m #mes form div{
+				width: 30%;
+				height: auto;
+				font-size: $text_cal_medico_h2;
+				color: $fill_white_text_cal_medico_h2;
+			}
+
+
+	#cita-m #calendar-head{
+		width: 96%;
+		min-height: 40px;
+		background-color: $bg_grey_cal_medico;
+		padding-top: 5px;		
+	}
+
+		#cita-m #calendar-head .h{
+			min-width: 22%;
+			height: 40px;
+			font-size: $text_cal_medico_h2;
+			background-color: $bg_grey_cal_medico;
+			color: $fill_white_text_cal_medico_h2;
+			padding-top: 10px;			
+		}
+
+		#cita-m #calendar-head .d{
+			width: 10%;
+			height: 40px;			
+			color: $fill_white_text_cal_medico_h2;
+			margin: 0px 1px;
+			padding-top: 10px;		
+		}
+
+		#cita-m form #c_cita{
+			width: 100%;
+			height: 50px;
+			font-family: $base_f_standar;
+			font-size: $btn_estandar_cal_medico;
+			color: $btn_fill_white_cal_medico;
+			background-color: $bg_green_cal_medico;
+			padding-top: 2%;
+		}
+
+			#cita-m form #c_cita:hover{
+				background-color: $bg_white_text_cal_medico_hover;
+			}
+
+		#cita-m form #e_cons{
+			width: 100%;
+			height: auto;
+			background-color: $bg_green_cal_medico;
+			padding-top: 2%;
+		}
+
+			#cita-m form #e_cons p{
+				color: $fill_white_text_cal_medico_h4;
+				font-family: $base_f_standar;
+				font-size: $text_cal_medico_p_L4
+			}
+
+			#cita-m form #e_cons input{
+				width: 100%;
+				height: 50px;
+				background-color: $form_input_bg_white_cal_medico;
+			}
+
+	
+
+	
+	
+
+
+
+
+	
+
+		

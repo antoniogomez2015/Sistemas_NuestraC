@@ -1,0 +1,15 @@
+
+//mobile first header
+
+#close{
+	width: 100%;
+	height: auto;
+	margin-top: 5%;
+}
+
+	#close span{
+		font-size: $btn_close_cintillos_lightbox_L1;
+		font-weight: bold;
+		color: $btn_close_color_cintillos_lightbox_L1;
+		cursor: pointer;
+	}
